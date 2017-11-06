@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::QTools *ui;
+
+    void winListInit();//初始化窗口列表
+    void winStackInit();//初始化窗口分页
 };
 
 #endif // QTOOLS_H
