@@ -15,6 +15,9 @@ public:
     explicit DataConvert(QWidget *parent = 0);
     ~DataConvert();
 
+private slots:
+    void on_encrypt_clicked();
+
 private:
     Ui::DataConvert *ui;
 };
