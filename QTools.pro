@@ -25,10 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        qtools.cpp
+        qtools.cpp \
+    DataConvert/dataconvert.cpp
 
 HEADERS += \
-        qtools.h
+        qtools.h \
+    DataConvert/dataconvert.h
 
 FORMS += \
-        qtools.ui
+        qtools.ui \
+    DataConvert/dataconvert.ui

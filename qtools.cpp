@@ -22,11 +22,16 @@ QTools::~QTools()
 //此函数初始化主界面窗口切换选项卡
 void QTools::winListInit()
 {
+    QStringList winNameList;
+    winNameList<<"数据转换";
 
+    ui->winList->addItems(winNameList);
 }
 
 //此函数初始化主界面窗口分页
 void QTools::winStackInit()
 {
+    winDataConvert = new DataConvert(this);
 
+    ui->winStack->addWidget(winDataConvert);
 }

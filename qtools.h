@@ -2,6 +2,7 @@
 #define QTOOLS_H
 
 #include <QWidget>
+#include <DataConvert/dataconvert.h>
 
 namespace Ui {
 class QTools;
@@ -17,6 +18,7 @@ public:
 
 private:
     Ui::QTools *ui;
+    DataConvert* winDataConvert;
 
     void winListInit();//初始化窗口列表
     void winStackInit();//初始化窗口分页
