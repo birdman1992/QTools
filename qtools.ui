@@ -16,14 +16,14 @@
   <property name="styleSheet">
    <string notr="true"/>
   </property>
-  <layout class="QVBoxLayout" name="verticalLayout">
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,100">
    <property name="spacing">
-    <number>1</number>
+    <number>0</number>
    </property>
    <item>
     <widget class="QListWidget" name="winList">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -48,7 +48,7 @@
    <item>
     <widget class="QStackedWidget" name="winStack">
      <property name="styleSheet">
-      <string notr="true">border:1px outset  grey;</string>
+      <string notr="true">#winStack{border:1px outset  grey;} </string>
      </property>
      <property name="currentIndex">
       <number>-1</number>

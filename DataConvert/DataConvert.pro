@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-11-06T14:58:31
+# Project created by QtCreator 2017-11-06T17:25:47
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QTools
+TARGET = DataConvert
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,13 +25,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        qtools.cpp \
-    DataConvert/dataconvert.cpp
+        dataconvert.cpp
 
 HEADERS += \
-        qtools.h \
-    DataConvert/dataconvert.h
+        dataconvert.h
 
 FORMS += \
-        qtools.ui \
-    DataConvert/dataconvert.ui
+        dataconvert.ui
